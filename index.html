@@ -134,7 +134,7 @@ tailwind.config = {
       <div class="animate-fade-up">
         <span class="inline-flex items-center gap-2 rounded-full border border-gold bg-card-luxe px-4 py-1.5 text-xs uppercase tracking-[0.18em] text-gold">
           <span class="h-1.5 w-1.5 rounded-full bg-gold"></span>
-          Engineering studio · Benin City · est. 2021
+          Engineering studio · Benin City · est. 2024
         </span>
         <h1 class="mt-7 font-serif text-5xl leading-[1.05] tracking-tight md:text-6xl lg:text-7xl">
           Software that earns<br/>
@@ -153,7 +153,7 @@ tailwind.config = {
           </a>
         </div>
         <dl class="mt-14 grid max-w-lg grid-cols-3 gap-6 border-t border-white/10 pt-8">
-          <div><dt class="font-serif text-2xl text-gold md:text-3xl">80+</dt><dd class="mt-1 text-xs uppercase tracking-wider text-ink-muted">Products shipped</dd></div>
+          <div><dt class="font-serif text-2xl text-gold md:text-3xl">20+</dt><dd class="mt-1 text-xs uppercase tracking-wider text-ink-muted">Products shipped</dd></div>
           <div><dt class="font-serif text-2xl text-gold md:text-3xl">12</dt><dd class="mt-1 text-xs uppercase tracking-wider text-ink-muted">Industries served</dd></div>
           <div><dt class="font-serif text-2xl text-gold md:text-3xl">99.95%</dt><dd class="mt-1 text-xs uppercase tracking-wider text-ink-muted">Avg. uptime</dd></div>
         </dl>
@@ -191,11 +191,11 @@ tailwind.config = {
 
     <div class="mt-24 grid grid-cols-2 items-center gap-8 border-y border-white/10 py-6 text-xs uppercase tracking-[0.2em] text-ink-muted md:grid-cols-6">
       <span class="text-center font-serif tracking-wider text-white/70">NOVATRADE</span>
-      <span class="text-center font-serif tracking-wider text-white/70">LuxeStay</span>
-      <span class="text-center font-serif tracking-wider text-white/70">TrackFast</span>
-      <span class="text-center font-serif tracking-wider text-white/70">Archivum</span>
+      <span class="text-center font-serif tracking-wider text-white/70">Fanzyhotels & Suites</span>
+      <span class="text-center font-serif tracking-wider text-white/70">routerunner</span>
+      <span class="text-center font-serif tracking-wider text-white/70">Wasmsr</span>
       <span class="text-center font-serif tracking-wider text-white/70">VerifiedTaste</span>
-      <span class="text-center font-serif tracking-wider text-white/70">PipeWorks</span>
+      <span class="text-center font-serif tracking-wider text-white/70">Plumber A-Z</span>
     </div>
   </div>
 </section>
@@ -377,7 +377,7 @@ tailwind.config = {
       <p class="text-white font-semibold">Reach us</p>
       <ul class="mt-3 space-y-2">
         <li>+234 903 842 4122</li>
-        <li>contact@vratech.dev</li>
+        <li>verifiedrichy848@gmail.com</li>
         <li>Benin City, Edo State, NG</li>
       </ul>
     </div>
@@ -406,7 +406,7 @@ document.getElementById('menuBtn').addEventListener('click', () => {
 
 // Data
 const services = [
-  {icon:'🌐', t:'Web Development', d:'Production-grade websites and web apps built on React, Next.js and TypeScript — engineered for speed, SEO and conversion.'},
+  {icon:'🌐', t:'Web Development', d:'Production-grade websites and web apps built on React, PHP and JavaScript — engineered for speed, SEO and conversion.'},
   {icon:'📱', t:'Mobile Applications', d:'Native-feel iOS and Android apps with React Native and Flutter, shipped with CI/CD, analytics and crash reporting.'},
   {icon:'🔌', t:'APIs & Backend Engineering', d:'Scalable REST and GraphQL services, secure authentication, queues, caching and database architecture done right.'},
   {icon:'✨', t:'AI Solutions & Automation', d:'Custom GPT assistants, RAG pipelines, document intelligence and workflow automations that replace busywork.'},
@@ -423,12 +423,12 @@ document.getElementById('servicesGrid').innerHTML = services.map(s => `
   </article>`).join('');
 
 const projects = [
-  {n:'NOVATRADE', tag:'Investment Platform', d:'AI-driven fintech app with real-time markets, portfolio analytics and secure trading rails.', s:['Next.js','Node','PostgreSQL','Stripe']},
-  {n:'VerifiedTaste', tag:'Hospitality', d:'Reservation and ordering platform with kitchen dashboards and real-time table management.', s:['React','Express','MongoDB']},
-  {n:'TrackFast', tag:'Logistics SaaS', d:'Live GPS tracking, route optimization and driver portal for last-mile courier operations.', s:['React','Node','Mapbox','Redis']},
-  {n:'LuxeStay', tag:'Hotel Booking', d:'Booking engine with calendar pricing, payments, reviews and admin command center.', s:['Next.js','Prisma','Stripe']},
-  {n:'Archivum', tag:'Digital Journal', d:'Editorial publishing platform with volumes, archives, comments and author workflows.', s:['TypeScript','Postgres','S3']},
-  {n:'PipeWorks', tag:'Service Marketplace', d:'Booking + dispatch system for skilled trades with SMS alerts and CRM integration.', s:['React','Supabase','Twilio']},
+  {n:'NOVATRADE', tag:'Investment Platform', d:'AI-driven fintech app with real-time markets, portfolio analytics and secure trading rails.', s:['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL','Tailwind']},
+  {n:'VerifiedTaste', tag:'Hospitality', d:'Reservation and ordering platform with kitchen dashboards and real-time table management.', s:['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']},
+  {n:'TrackFast', tag:'Logistics SaaS', d:'Live GPS tracking, route optimization and driver portal for last-mile courier operations.', s:['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']},
+  {n:'LuxeStay', tag:'Hotel Booking', d:'Booking engine with calendar pricing, payments, reviews and admin command center.', s:['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']},
+  {n:'Archivum', tag:'Digital Journal', d:'Editorial publishing platform with volumes, archives, comments and author workflows.', s:['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']},
+  {n:'PipeWorks', tag:'Service Marketplace', d:'Booking + dispatch system for skilled trades with SMS alerts and CRM integration.', s:['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL','Tailwind']},
 ];
 document.getElementById('workGrid').innerHTML = projects.map(p => `
   <article class="bg-card-luxe group flex flex-col overflow-hidden rounded-2xl border border-white/10 hover:-translate-y-1 hover:border-gold hover:shadow-gold transition-all">
@@ -447,9 +447,9 @@ document.getElementById('workGrid').innerHTML = projects.map(p => `
   </article>`).join('');
 
 const stack = [
-  ['Frontend','React · Next.js · TypeScript · Tailwind'],
+  ['Frontend','HTML · CSS · JavaScript · Tailwind'],
   ['Mobile','React Native · Flutter · Expo'],
-  ['Backend','Node.js · NestJS · Python · Go'],
+  ['Backend','JavaScript · MYSQL · PHP '],
   ['Databases','PostgreSQL · MongoDB · Redis · Supabase'],
   ['AI / Automation','OpenAI · LangChain · n8n · Zapier'],
   ['Cloud / DevOps','AWS · Vercel · Cloudflare · Docker'],
@@ -504,7 +504,7 @@ document.querySelectorAll('.cur-btn').forEach(btn => btn.addEventListener('click
 const testimonials = [
   {q:'VRA Technologies rebuilt our investment platform end-to-end. The architecture is rock-solid, the UI is on another level, and uptime has been flawless.', n:'Oluwaseun Adebayo', r:'CEO, NOVATRADE Nigeria'},
   {q:'Our analytics dashboard shipped in three weeks, with real-time data streams and zero production incidents. True engineering professionals.', n:'Aisha Bello', r:'Founder, VerifiedTaste'},
-  {q:'The booking engine they built tripled our conversions in the first month. Communication, code quality and design — all exceptional.', n:'Chinedu Okoro', r:'GM, LuxeStay Hotels'},
+  {q:'The booking engine they built tripled our conversions in the first month. Communication, code quality and design — all exceptional.', n:'Chinedu Okoro', r:'GM, Franzy Hotels'},
 ];
 document.getElementById('testimonialsGrid').innerHTML = testimonials.map(t => `
   <figure class="bg-card-luxe flex flex-col rounded-2xl border border-white/10 p-8">
