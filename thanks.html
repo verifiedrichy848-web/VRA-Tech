@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Message Sent — VRA Technologies</title>
+  <meta name="description" content="Your message has been sent to VRA Technologies. We will respond within one business day." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { 950: '#0a0a1a', 900: '#141432', 800: '#1e1e5a' },
+            gold: '#d4af37',
+            ink: { muted: '#9ca3af' }
+          },
+          backgroundImage: {
+            'gradient-gold': 'linear-gradient(135deg, #d4af37, #c9a84c)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-[#0a0a1a] text-white px-6">
+  <div class="text-center max-w-lg">
+    <div class="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-gold text-navy-950 text-2xl font-bold">✓</div>
+    <h1 class="text-3xl font-bold">Message received</h1>
+    <p class="mt-4 text-ink-muted">Thanks for reaching out. Our team will review your project and respond within one business day.</p>
+    <a href="vra-tech.html" class="mt-8 inline-flex items-center gap-2 rounded-full bg-gradient-gold px-7 py-3.5 text-sm font-semibold text-navy-950 shadow-lg">← Back to VRA Technologies</a>
+  </div>
+</body>
+</html>
